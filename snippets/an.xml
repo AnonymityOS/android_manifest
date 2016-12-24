@@ -7,11 +7,11 @@
           revision = "master"
           fetch = "https://bitbucket.org/" />
 
-  <remote  name="pd"
-           fetch="https://github.com/ProjectDestini/" />
+  <remote  name="an"
+           fetch="https://github.com/AnonymityOS/" />
 
   <remove-project name="platform/build" />
-  <project name="android_build" path="build" remote="pd" revision="7.1.1">
+  <project name="android_build" path="build" remote="an" revision="7.1.1">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 

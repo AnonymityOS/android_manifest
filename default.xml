@@ -541,7 +541,7 @@
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
-  <include name="snippets/pd.xml" />
+  <include name="snippets/an.xml" />
   <include name="snippets/cm.xml" />
 
 </manifest>
