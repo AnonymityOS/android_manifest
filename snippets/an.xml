@@ -15,6 +15,19 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
+  <!-- Frameworks -->
+  <remove-project name="platfrom/frameworks/base" />
+  <project name="android_frameworks_base" path="frameworks/base" remote="an" revision="7.1.1" />
+
+  <remove-project name="platfrom/frameworks/base" />
+  <project name="android_frameworks_av" path="frameworks/av" remote="an" revision="7.1.1" />
+
+  <remove-project name="platfrom/frameworks/base" />
+  <project name="android_frameworks_native" path="frameworks/native" remote="an" revision="7.1.1" />
+
+  <!-- Hardware -->
+  <remove-project name="platfrom/hardware/libhardware" />
+  <project name="android_hardware_libhardware" path="hardware/libhardware" remote="an" revision="7.1.1" />
 
   <!-- Toolchain -->
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
