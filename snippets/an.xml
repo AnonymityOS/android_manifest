@@ -36,6 +36,11 @@
   <remove-project name="platform/system/vold" />
   <project name="AOSP-bacon/android_system_vold" path="system/vold" remote="github" revision="7.1.x" />
 
+  <project name="android_hardware_qcom_display-caf" path="hardware/qcom/display-caf/msm8974" remote ="an" revision="n2-caf" />
+ 
+  <project name="android_hardware_qcom_media-caf" path="hardware/qcom/media-caf/msm8974" remote ="an" revision="n2-caf" />
+
+  <project name="AOSP-bacon/android_hardware_qcom_audio" path="hardware/qcom/audio" remote ="github" revision="7.1.x" />
 
   <!-- remove unneeded stuff -->
   <remove-project name="device/asus/fugu" />
