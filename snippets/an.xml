@@ -19,7 +19,7 @@
   <remove-project name="platfrom/frameworks/base" />
   <project name="android_frameworks_base" path="frameworks/base" remote="an" revision="7.1.1" />
 
-  <remove-project name="platfrom/frameworks/base" />
+  <remove-project name="platfrom/frameworks/av" />
   <project name="android_frameworks_av" path="frameworks/av" remote="an" revision="7.1.1" />
 
   <remove-project name="platfrom/frameworks/base" />
