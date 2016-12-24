@@ -22,7 +22,7 @@
   <remove-project name="platform/frameworks/av" />
   <project name="android_frameworks_av" path="frameworks/av" remote="an" revision="7.1.1" />
 
-  <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/native" />
   <project name="android_frameworks_native" path="frameworks/native" remote="an" revision="7.1.1" />
 
   <!-- Hardware -->
