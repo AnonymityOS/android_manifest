@@ -42,7 +42,7 @@
   <remove-project name="platform/external/sqlite" />
   <project name="android_external_sqlite" path="external/sqlite" remote="an" revision="aosp-7.1.1" />
 
-  <remove-project name="platform/external/jemalloc" />
+  <remove-project name="platform/external/zlib" />
   <project name="android_external_zlib" path="external/zlib" remote="an" revision="aosp-7.1.1" />
 
   <!-- Frameworks -->
