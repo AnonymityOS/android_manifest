@@ -15,6 +15,28 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
+  <!-- Device -->
+  <project name="android_device_qcom_common" path="device/qcom/common" remote="an" revision="aosp-7.1.1" />
+
+  <!-- External -->
+  <remove-project name="platform/external/jemalloc" />
+  <project name="android_external_jemalloc" path="external/jemalloc" remote="an" revision="aosp-7.1.1" />
+
+  <remove-project name="platform/external/libjpeg-turbo" />
+  <project name="android_external_libjpeg-turbo" path="external/libjpeg-turbo" remote="an" revision="aosp-7.1.1" />
+
+  <remove-project name="platform/external/libpng" />
+  <project name="android_external_libpng" path="external/libpng" remote="an" revision="aosp-7.1.1" />
+
+  <remove-project name="platform/external/skia" />
+  <project name="android_external_skia" path="external/skia" remote="an" revision="aosp-7.1.1" />
+
+  <remove-project name="platform/external/sqlite" />
+  <project name="android_external_sqlite" path="external/sqlite" remote="an" revision="aosp-7.1.1" />
+
+  <remove-project name="platform/external/jemalloc" />
+  <project name="android_external_zlib" path="external/zlib" remote="an" revision="aosp-7.1.1" />
+
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/base" />
   <project name="android_frameworks_base" path="frameworks/base" remote="an" revision="7.1.1" />
@@ -65,6 +87,9 @@
   <!-- Toolchain -->
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="mdalexca/arm-linux-androideabi-4.9" remote="bb" />
+
+  <!-- Vendor -->
+  <project name="android_vendor_qcom_sdclang-3.8" path="vendor/qcom/sdclang-3.8/linux-x86" remote="github" revision="aosp-7.1.1"/>
 
   <!-- remove unneeded stuff -->
   <remove-project name="device/asus/fugu" />
