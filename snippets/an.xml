@@ -97,7 +97,7 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="mdalexca/arm-linux-androideabi-4.9" remote="bb" />
 
   <!-- Vendor -->
-  <project name="android_vendor_qcom_sdclang-3.8" path="vendor/qcom/sdclang-3.8/linux-x86" remote="github" revision="aosp-7.1.1"/>
+  <project name="android_vendor_qcom_sdclang-3.8" path="vendor/qcom/sdclang-3.8/linux-x86" remote="an" revision="aosp-7.1.1"/>
 
   <!-- remove unneeded stuff -->
   <remove-project name="device/asus/fugu" />
