@@ -15,6 +15,14 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
+  <!-- Art -->
+  <remove-project name="platform/art" />
+  <project name="android_art" path="art" remote="an" revision="7.1.1" />
+
+  <!-- Art -->
+  <remove-project name="platform/bionic" />
+  <project name="android_bionic" path="bionic" remote="an" revision="7.1.1" />
+
   <!-- Device -->
   <project name="android_device_qcom_common" path="device/qcom/common" remote="an" revision="aosp-7.1.1" />
 
