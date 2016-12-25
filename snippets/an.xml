@@ -29,31 +29,42 @@
   <remove-project name="platform/hardware/libhardware" />
   <project name="android_hardware_libhardware" path="hardware/libhardware" remote="an" revision="7.1.1" />
 
-  <!-- Toolchain -->
-  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="mdalexca/arm-linux-androideabi-4.9" remote="bb" />
-
-  <!-- Temp Stuff -->
   <remove-project name="platform/hardware/qcom/bt" />
-  <project name="AOSP-bacon/android_hardware_qcom_bt" path="hardware/qcom/bt" remote="github" revision="7.1.x" />
+  <project name="android_hardware_qcom_bt" path="hardware/qcom/bt" remote="an" revision="7.1.1" />
 
   <remove-project name="platform/hardware/qcom/wlan" />
-  <project name="AOSP-bacon/android_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="github" revision="7.1.x" />
-
-  <remove-project name="platform/system/core" />
-  <project name="AOSP-bacon/platform_system_core" path="system/core" remote="github" revision="7.1.x" />
-
-  <remove-project name="platform/system/bt" />
-  <project name="AOSP-bacon/android_system_bt" path="system/bt" remote="github" revision="7.1.x" />
-
-  <remove-project name="platform/system/vold" />
-  <project name="AOSP-bacon/android_system_vold" path="system/vold" remote="github" revision="7.1.x" />
+  <project name="android_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="an" revision="7.1.1" />
 
   <project name="android_hardware_qcom_display-caf" path="hardware/qcom/display-caf/msm8974" remote ="an" revision="n2-caf" />
  
   <project name="android_hardware_qcom_media-caf" path="hardware/qcom/media-caf/msm8974" remote ="an" revision="n2-caf" />
 
-  <project name="AOSP-bacon/android_hardware_qcom_audio" path="hardware/qcom/audio" remote ="github" revision="7.1.x" />
+  <project name="android_hardware_qcom_audio" path="hardware/qcom/audio" remote ="an" revision="7.1.1" />
+
+  <!-- Packages -->
+  <remove-project name="platform/packages/apps/Settings" />
+  <project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="an" revision="7.1.1" />
+
+  <!-- System -->
+
+  <remove-project name="platform/system/bt" />
+  <project name="android_system_bt" path="system/bt" remote="an" revision="7.1.1" />
+
+  <remove-project name="platform/system/core" />
+  <project name="android_system_core" path="system/core" remote="an" revision="7.1.1" />
+
+  <remove-project name="platform/system/netd" />
+  <project name="android_system_netd" path="system/netd" remote="an" revision="7.1.1" />
+
+  <remove-project name="platform/system/sepolicy" />
+  <project name="android_system_sepolicy" path="system/sepolicy" remote="an" revision="7.1.1" />
+
+  <remove-project name="platform/system/vold" />
+  <project name="android_system_vold" path="system/vold" remote="an" revision="7.1.1" />
+
+  <!-- Toolchain -->
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="mdalexca/arm-linux-androideabi-4.9" remote="bb" />
 
   <!-- remove unneeded stuff -->
   <remove-project name="device/asus/fugu" />
@@ -86,7 +97,6 @@
   <remove-project name="device/linaro/hikey-kernel" />
   <remove-project name="device/moto/shamu" />
   <remove-project name="device/moto/shamu-kernel" />
-
   <remove-project name="platform/hardware/bsp/intel" />
   <remove-project name="platform/hardware/google/apf"  />
   <remove-project name="platform/hardware/intel/audio_media"  />
