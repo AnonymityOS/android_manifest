@@ -28,7 +28,7 @@
 
   <!-- External -->
   
-  <project name="android_external_DUtils" path="external/DUtils" reemote="an" revision="7.1.1" />
+  <project name="android_external_DUtils" path="external/DUtils" remote="an" revision="7.1.1" />
   
   <remove-project name="platform/external/jemalloc" />
   <project name="android_external_jemalloc" path="external/jemalloc" remote="an" revision="aosp-7.1.1" />
