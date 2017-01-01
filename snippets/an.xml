@@ -79,6 +79,8 @@
   <project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="an" revision="7.1.1" />
   
   <project name="android_packages_apps_DUI" path="packages/apps/DUI" remote="an" revision="7.1.1" />
+  
+  <project name="android_packages_apps_ElixirSettings" path="packages/apps/ElixirSettings" remote="an" revision="7.1.1" />
 
   <!-- System -->
 
