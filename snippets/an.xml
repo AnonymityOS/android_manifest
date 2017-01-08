@@ -75,6 +75,8 @@
   <project name="android_hardware_qcom_audio" path="hardware/qcom/audio" remote ="an" revision="7.1.1" />
 
   <!-- Packages -->
+  <project name="TeamSubstratum/masquerade" path="packages/apps/masquerade" remote="github" revision="n" />
+    
   <remove-project name="platform/packages/apps/Settings" />
   <project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="an" revision="7.1.1" />
   
