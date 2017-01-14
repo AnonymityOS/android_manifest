@@ -54,6 +54,9 @@
 
   <remove-project name="platform/frameworks/av" />
   <project name="android_frameworks_av" path="frameworks/av" remote="an" revision="7.1.1" />
+  
+    <remove-project name="platform/frameworks/support" />
+  <project name="android_frameworks_support" path="frameworks/support" remote="an" revision="7.1.1" />
 
   <remove-project name="platform/frameworks/native" />
   <project name="android_frameworks_native" path="frameworks/native" remote="an" revision="7.1.1" />
@@ -79,6 +82,9 @@
     
   <remove-project name="platform/packages/apps/Settings" />
   <project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="an" revision="7.1.1" />
+  
+  <remove-project name="platform/packages/services/Telephony" />
+  <project name="android_packages_services_Telephony" path="packages/services/Telephony" remote="an" revision="7.1.1" />
   
   <project name="android_packages_apps_DUI" path="packages/apps/DUI" remote="an" revision="7.1.1" />
   
