@@ -103,7 +103,7 @@
 
   <!-- Toolchain -->
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="mdalexca/arm-linux-androideabi-4.9" remote="bb" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="amardeep434/arm-linux-androideabi-4.9" remote="bb" />
 
   <!-- Vendor -->
   <project name="android_vendor_qcom_sdclang-3.8" path="vendor/qcom/sdclang-3.8/linux-x86" remote="an" revision="aosp-7.1.1"/>
