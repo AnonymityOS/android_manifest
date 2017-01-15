@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="cm"
-           fetch="https://github.com/CyanogenMod/" />
+           fetch="https://github.com/LineageOS/" />
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
